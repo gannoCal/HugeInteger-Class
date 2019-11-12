@@ -436,7 +436,7 @@ public class HugeInteger {
         i.sign=!XOR(this.sign,h.sign);
         return i;
     }
-    public static boolean XOR(boolean x, boolean y) {
+    private static boolean XOR(boolean x, boolean y) {
     return ( ( x || y ) && (!( x && y )) );
 }
     public int compareTo(HugeInteger h){
